@@ -4,7 +4,7 @@ import openai
 import os
 
 # --- Configuration ---
-openai.api_key = st.secrets.get("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")
+openai.api_key = st.secrets.get("OPENAI_API_KEY")
 
 # --- Functions ---
 def extract_text_from_pdf(uploaded_file):
